@@ -8,7 +8,8 @@ import {Bounce,toast } from 'react-toastify';
 import { formatCurrency } from '../../helpers/currencyHelpre';
 import { counterContext } from '../../contexts/CounterContext/CounterContext';
 import { useContext } from 'react';
-import addProductToCart from '../../Services/CartServices';
+import addProductToCart from '../../Services/cartServices';
+// import addProductToCart from '../../Services/CartServices';
 export default function Home({product}) {
   const [isLoading, setisLoading] = useState(false)
   // first com
