@@ -1,6 +1,6 @@
 // import React from 'react'
 import React, { useContext, useEffect, useState } from 'react'
-import { authContext } from '../../contexts/authContext'
+import { authContext } from '../../contexts/AuthContext'
 import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 import { div } from 'framer-motion/client'

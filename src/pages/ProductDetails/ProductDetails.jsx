@@ -39,7 +39,6 @@ const settings = {
 <div className="">
   <div className="container mx-auto px-4 py-8">
     <div className="flex items-center flex-wrap -mx-4">
-      <p>hi</p>
       {/* <!-- Product Images --> */}
       <div className="w-full md:w-1/3 px-4 mb-8">
         <Slider {...settings}>
