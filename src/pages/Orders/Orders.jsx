@@ -4,7 +4,7 @@ import { authContext } from '../../contexts/AuthContext'
 import axios from 'axios'
 import { useQuery } from '@tanstack/react-query'
 import { div } from 'framer-motion/client'
-import Cart from '../Cart/Cart'
+import Home from '../Home/Home'
 export default function Orders() {
   const {userId}=useContext(authContext)
   const [orders, setOrders] = useState([])
@@ -52,7 +52,9 @@ export default function Orders() {
 
       })
     } */}
-
+{
+  <Home/>
+}
     </div>
     </>
   )
