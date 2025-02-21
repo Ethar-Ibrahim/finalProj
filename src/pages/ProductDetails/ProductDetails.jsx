@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import LoadingScreen from '../../components/LoadingScreen/LoadingScreen';
 import Slider from "react-slick";
 import { Button } from '@heroui/react';
-import addProductToCart from '../../Services/CartServices';
+import addProductToCart from '../../Services/cartServices';
 export default function ProductDetails() {
 const [product, setproduct] = useState(null);
 const [isLoading,setIsLoading]=useState(true);
